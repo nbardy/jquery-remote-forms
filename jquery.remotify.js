@@ -1,8 +1,3 @@
-/**
- * @file remotify.js
- */
-
-// Enable ajax on remote forms
 (function() {
 
    /**
