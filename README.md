@@ -9,7 +9,6 @@ Inspired by rails ajax forms.
 Then call the one and only function.
 ````javascript
 $("form.remote").remotify();
-
 ````
 You have the option of passing in a callback.
 
@@ -21,7 +20,6 @@ $("form.remote").remotify(function (data) {
       $(this).html("Failure!")
    }
 })
-
 ````
 
 Setting a forms data attribute 'remote' to true will set it to remote with an empty callback.
